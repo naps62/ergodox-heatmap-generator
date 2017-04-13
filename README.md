@@ -11,7 +11,8 @@ an SVG template.
 
 Here's how it looks after about 5 minutes of keyboard usage:
 
-![example.svg](Example heatmap)
+![example
+heatmap](https://raw.githubusercontent.com/naps62/ergodox-heatmap-generator/master/example.png)
 
 ## Disclaimer
 
