@@ -1,0 +1,56 @@
+#!/usr/bin/env ruby
+
+require "sequel"
+require "sqlite3"
+require "json"
+
+DB = Sequel.sqlite("/usr/local/heatmap-generator/data/db.sqlite3")
+
+unless DB.table_exists?(:readings)
+  DB.create_table(:readings) do
+    Integer :id, primary_key: true
+    Integer :col
+    Integer :row
+    String :layer
+    column :n, :integer, default: 0
+  end
+end
+
+class Reading < Sequel::Model(:readings)
+  def validate
+    super
+    errors.add(:n, "cannot be null") if !n
+  end
+end
+
+while line = gets do
+  begin
+    data = JSON.parse(line)
+  rescue JSON::ParserError => e
+    puts "Error parsing JSON line. skipping..."
+    next
+  end
+
+  # we only want to count pressed keys
+  next if data["pressed"] != 1
+
+  existing_counter = Reading.find(
+    col: data["col"],
+    row: data["row"],
+    layer: data["layer"],
+  )
+
+  if existing_counter
+    counter = existing_counter
+    counter.update n: existing_counter.n + 1
+  else
+    counter = Reading.create(
+      col: data["col"],
+      row: data["row"],
+      layer: data["layer"],
+      n: 1
+    )
+  end
+
+  puts "Updating {#{counter.col}, #{counter.row}, #{counter.layer}} to #{counter.n}"
+end

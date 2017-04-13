@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+require "sequel"
+require "sqlite3"
+require "nokogiri"
+require "color"
+
+MAX_RED=0
+
+DB = Sequel.sqlite("/usr/local/heatmap-generator/data/db.sqlite3")
+
+class Reading < Sequel::Model(:readings)
+  def validate
+    super
+    errors.add(:n, "cannot be null") if !n
+  end
+end
+
+def heatmap_color(value:, max:)
+  ratio = value.to_f / max
+
+  r = ratio * (217 - 65) + 65
+  g = (1.0 - ratio) * (130 - 30) + 30
+  b = (1.0 - ratio) * (215 - 24) + 24
+
+  Color::RGB.new(r, g, b).css_rgb
+end
+
+doc = Nokogiri::XML(File.read("/usr/local/heatmap-generator/app/ergodox.svg"))
+
+qwerty_readings = Reading.where(layer: "QWERTY").order(Sequel.desc(:n))
+max_reading = Reading.where(layer: "QWERTY").max(:n)
+
+doc.xpath("//xmlns:rect[@data-col and @data-row]").each do |el|
+  row = el.attributes["data-row"].value.to_i
+  col = el.attributes["data-col"].value.to_i
+
+  reading = Reading.find(col: col, row: row, layer: "QWERTY")
+
+  value = reading ? reading.n : 0
+
+  el.set_attribute("fill", heatmap_color(value: value, max: max_reading))
+end
+
+File.write("heatmap.base-layer.svg", doc.to_xml)

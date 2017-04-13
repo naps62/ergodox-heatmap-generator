@@ -1,0 +1,8 @@
+[Unit]
+Description=Heatmap Generator for my Ergodox EZ
+
+[Service]
+Type=forking
+ExecStart=/usr/local/heatmap-generator/app/bin/service start
+ExecStop=/usr/local/heatmap-generator/app/bin/service stop
+User=root

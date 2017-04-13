@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+set -e
+
+HEATMAP_HID_COMMAND="hid_listen"
+HEATMAP_LOGGER_COMMAND="/usr/local/heatmap-generator/app/bin/heatmap-hid-parser"
+
+_heatmap_logger_check () {
+  echo 'Checking Heatmap Logger status' 1>&2
+  pgrep -f "$HEATMAP_LOGGER_COMMAND"
+}
+
+_heatmap_logger_status () {
+  local pid
+
+  pid=`_heatmap_logger_check`
+
+  if [ $? == 0 ]; then
+    echo "Heatmap Logger is running as process $pid" 1>&2
+    return 0
+  else
+    echo 'Heatmap Logger is stopped' 1>&2
+    return 1
+  fi
+}
+
+_heatmap_logger_process () {
+  echo "Heatmap Logger started as process $BASHPID"
+
+  $HEATMAP_HID_COMMAND | $HEATMAP_LOGGER_COMMAND
+}
+
+_heatmap_logger_start () {
+  if ! _heatmap_logger_status; then
+    echo 'Starting Heatmap Logger...' 1>&2
+    _heatmap_logger_process &
+  fi
+}
+
+_heatmap_logger_stop () {
+  if _heatmap_logger_status; then
+    echo 'Stopping Heatmap Logger...' 1>&2
+    pkill -f "$heatmap_logger_COMMAND" &> /dev/null
+    echo 'Heatmap Logger stopped' 1>&2
+  fi
+}
+
+case $1 in
+  "start")
+    _heatmap_logger_start
+    ;;
+  "stop")
+    _heatmap_logger_stop
+    ;;
+  "status")
+    _heatmap_logger_status
+    ;;
+esac

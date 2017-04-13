@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="1000px" height="375px" viewBox="0 0 1000 375" version="1.1">
+    <g fill="#D8D8D8">
+        <rect class="key  key-1" fill="rgb(50.97%, 34.22%, 52.29%)" data-col="00" data-row="00" data-key="1" x="0" y="12" width="75" height="50"/>
+        <rect class="key  key-2" data-col="01" data-row="00" data-key="2" x="77" y="12" width="50" height="50" fill="rgb(30.04%, 47.99%, 78.60%)"/>
+        <rect class="key  key-3" data-col="02" data-row="00" data-key="3" x="129" y="4" width="50" height="50" fill="rgb(37.78%, 42.90%, 68.88%)"/>
+        <rect class="key  key-4" data-col="03" data-row="00" data-key="4" x="181" y="0" width="50" height="50" fill="rgb(39.60%, 41.70%, 66.59%)"/>
+        <rect class="key  key-5" data-col="04" data-row="00" data-key="5" x="233" y="4" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-6" data-col="05" data-row="00" data-key="6" x="285" y="8" width="50" height="50" fill="rgb(26.40%, 50.38%, 83.17%)"/>
+        <rect class="key  key-7" data-col="06" data-row="00" data-key="7" x="337" y="8" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+
+        <rect class="key  key-8" data-col="00" data-row="01" data-key="8" x="0" y="64" width="75" height="50" fill="rgb(47.33%, 36.61%, 56.87%)"/>
+        <rect class="key  key-9" data-col="01" data-row="01" data-key="9" x="77" y="64" width="50" height="50" fill="rgb(36.87%, 43.50%, 70.02%)"/>
+        <rect class="key  key-10" data-col="02" data-row="01" data-key="10" x="129" y="56" width="50" height="50" fill="rgb(55.52%, 31.22%, 46.58%)"/>
+        <rect class="key  key-11" data-col="03" data-row="01" data-key="11" x="181" y="52" width="50" height="50" fill="rgb(76.00%, 17.75%, 20.85%)"/>
+        <rect class="key  key-12" data-col="04" data-row="01" data-key="12" x="233" y="56" width="50" height="50" fill="rgb(57.34%, 30.03%, 44.29%)"/>
+        <rect class="key  key-13" data-col="05" data-row="01" data-key="13" x="285" y="60" width="50" height="50" fill="rgb(53.25%, 32.72%, 49.44%)"/>
+        <rect class="key  key-14" data-col="06" data-row="01" data-key="14" x="337" y="61" width="50" height="75" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+
+        <rect class="key  key-15" data-col="00" data-row="02" data-key="15" x="0" y="116" width="75" height="50" fill="rgb(85.10%, 11.76%, 9.41%)"/>
+        <rect class="key  key-16" data-col="01" data-row="02" data-key="16" x="77" y="116" width="50" height="50" fill="rgb(73.27%, 19.55%, 24.28%)"/>
+        <rect class="key  key-17" data-col="02" data-row="02" data-key="17" x="129" y="108" width="50" height="50" fill="rgb(62.80%, 26.43%, 37.43%)"/>
+        <rect class="key  key-18" data-col="03" data-row="02" data-key="18" x="181" y="104" width="50" height="50" fill="rgb(60.53%, 27.93%, 40.29%)"/>
+        <rect class="key  key-19" data-col="04" data-row="02" data-key="19" x="233" y="108" width="50" height="50" fill="rgb(35.96%, 44.10%, 71.16%)"/>
+        <rect class="key  key-20" data-col="05" data-row="02" data-key="20" x="285" y="112" width="50" height="50" fill="rgb(38.23%, 42.60%, 68.30%)"/>
+
+        <rect class="key  key-21" data-col="00" data-row="03" data-key="21" x="0" y="168" width="75" height="50" fill="rgb(60.98%, 27.63%, 39.72%)"/>
+        <rect class="key  key-22" data-col="01" data-row="03" data-key="22" x="77" y="168" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-23" data-col="02" data-row="03" data-key="23" x="129" y="160" width="50" height="50" fill="rgb(36.41%, 43.80%, 70.59%)"/>
+        <rect class="key  key-24" data-col="03" data-row="03" data-key="24" x="181" y="156" width="50" height="50" fill="rgb(42.33%, 39.90%, 63.16%)"/>
+        <rect class="key  key-25" data-col="04" data-row="03" data-key="25" x="233" y="160" width="50" height="50" fill="rgb(31.86%, 46.79%, 76.31%)"/>
+        <rect class="key  key-26" data-col="05" data-row="03" data-key="26" x="285" y="164" width="50" height="50" fill="rgb(43.24%, 39.31%, 62.01%)"/>
+        <rect class="key  key-27" data-col="06" data-row="03" data-key="27" x="337" y="139" width="50" height="75" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+
+        <rect class="key  key-28" data-col="00" data-row="04" data-key="28" x="25" y="220" width="50" height="50" fill="rgb(28.68%, 48.88%, 80.31%)"/>
+        <rect class="key  key-29" data-col="01" data-row="04" data-key="29" x="77" y="220" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-30" data-col="02" data-row="04" data-key="30" x="129" y="212" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-31" data-col="03" data-row="04" data-key="31" x="181" y="208" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-32" data-col="04" data-row="04" data-key="32" x="233" y="212" width="50" height="50" fill="rgb(38.23%, 42.60%, 68.30%)"/>
+
+        <g transform="translate(397.733614, 271.211309) rotate(25.000000) translate(-397.733614, -271.211309) translate(320.233614, 193.711309)">
+            <rect class="key  key-33" data-col="05" data-row="05" data-key="33" x="52" y="2.84217094e-14" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-34" data-col="06" data-row="05" data-key="34" x="104" y="0" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-37" data-col="04" data-row="05" data-key="37" x="104" y="52" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-38" data-col="03" data-row="05" data-key="38" x="5.68434189e-14" y="53" width="50" height="100" fill="rgb(27.31%, 49.78%, 82.03%)"/>
+            <rect class="key  key-39" data-col="02" data-row="05" data-key="39" x="52" y="53" width="50" height="100" fill="rgb(56.89%, 30.32%, 44.86%)"/>
+            <rect class="key  key-40" data-col="01" data-row="05" data-key="40" x="104" y="104" width="50" height="50" fill="rgb(25.95%, 50.68%, 83.74%)"/>
+        </g>
+    </g>
+
+    <g transform="translate(500.000000, 0.000000)" fill="#D8D8D8">
+        <rect class="key  key-41" data-col="07" data-row="00" data-key="41" x="113" y="8" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-42" data-col="08" data-row="00" data-key="42" x="165" y="8" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-43" data-col="09" data-row="00" data-key="43" x="217" y="4" width="50" height="50" fill="rgb(25.95%, 50.68%, 83.74%)"/>
+        <rect class="key  key-44" data-col="10" data-row="00" data-key="44" x="269" y="0" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-45" data-col="11" data-row="00" data-key="45" x="321" y="4" width="50" height="50" fill="rgb(29.13%, 48.59%, 79.74%)"/>
+        <rect class="key  key-46" data-col="12" data-row="00" data-key="46" x="373" y="12" width="50" height="50" fill="rgb(28.68%, 48.88%, 80.31%)"/>
+        <rect class="key  key-47" data-col="13" data-row="00" data-key="47" x="425" y="12" width="75" height="50" fill="rgb(72.81%, 19.85%, 24.85%)"/>
+
+        <rect class="key  key-48" data-col="07" data-row="01" data-key="48" x="113" y="61" width="50" height="75" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-49" data-col="08" data-row="01" data-key="49" x="165" y="60" width="50" height="50" fill="rgb(32.32%, 46.49%, 75.74%)"/>
+        <rect class="key  key-50" data-col="09" data-row="01" data-key="50" x="217" y="56" width="50" height="50" fill="rgb(43.69%, 39.01%, 61.44%)"/>
+        <rect class="key  key-51" data-col="10" data-row="01" data-key="51" x="269" y="52" width="50" height="50" fill="rgb(55.52%, 31.22%, 46.58%)"/>
+        <rect class="key  key-52" data-col="11" data-row="01" data-key="52" x="321" y="56" width="50" height="50" fill="rgb(61.89%, 27.03%, 38.57%)"/>
+        <rect class="key  key-53" data-col="12" data-row="01" data-key="53" x="373" y="64" width="50" height="50" fill="rgb(44.15%, 38.71%, 60.87%)"/>
+        <rect class="key  key-54" data-col="13" data-row="01" data-key="54" x="425" y="64" width="75" height="50" fill="rgb(28.68%, 48.88%, 80.31%)"/>
+
+        <rect class="key  key-55" data-col="08" data-row="02" data-key="55" x="165" y="112" width="50" height="50" fill="rgb(46.88%, 36.91%, 57.44%)"/>
+        <rect class="key  key-56" data-col="09" data-row="02" data-key="56" x="217" y="108" width="50" height="50" fill="rgb(51.43%, 33.92%, 51.72%)"/>
+        <rect class="key  key-57" data-col="10" data-row="02" data-key="57" x="269" y="104" width="50" height="50" fill="rgb(56.89%, 30.32%, 44.86%)"/>
+        <rect class="key  key-58" data-col="11" data-row="02" data-key="58" x="321" y="108" width="50" height="50" fill="rgb(67.81%, 23.14%, 31.14%)"/>
+        <rect class="key  key-59" data-col="12" data-row="02" data-key="59" x="373" y="116" width="50" height="50" fill="rgb(30.95%, 47.39%, 77.45%)"/>
+        <rect class="key  key-60" data-col="13" data-row="02" data-key="60" x="425" y="116" width="75" height="50" fill="rgb(31.86%, 46.79%, 76.31%)"/>
+
+        <rect class="key  key-61" data-col="07" data-row="03" data-key="61" x="113" y="139" width="50" height="75" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-62" data-col="08" data-row="03" data-key="62" x="165" y="164" width="50" height="50" fill="rgb(50.52%, 34.52%, 52.87%)"/>
+        <rect class="key  key-63" data-col="09" data-row="03" data-key="63" x="217" y="160" width="50" height="50" fill="rgb(40.05%, 41.40%, 66.02%)"/>
+        <rect class="key  key-64" data-col="10" data-row="03" data-key="64" x="269" y="156" width="50" height="50" fill="rgb(27.31%, 49.78%, 82.03%)"/>
+        <rect class="key  key-65" data-col="11" data-row="03" data-key="65" x="321" y="160" width="50" height="50" fill="rgb(39.60%, 41.70%, 66.59%)"/>
+        <rect class="key  key-66" data-col="12" data-row="03" data-key="66" x="373" y="168" width="50" height="50" fill="rgb(35.96%, 44.10%, 71.16%)"/>
+        <rect class="key  key-67" data-col="13" data-row="03" data-key="67" x="425" y="168" width="75" height="50" fill="rgb(30.04%, 47.99%, 78.60%)"/>
+
+        <rect class="key  key-68" data-col="09" data-row="04" data-key="68" x="217" y="212" width="50" height="50" fill="rgb(26.40%, 50.38%, 83.17%)"/>
+        <rect class="key  key-69" data-col="10" data-row="04" data-key="69" x="269" y="208" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+        <rect class="key  key-70" data-col="11" data-row="04" data-key="70" x="321" y="212" width="50" height="50" fill="rgb(26.86%, 50.08%, 82.60%)"/>
+        <rect class="key  key-71" data-col="12" data-row="04" data-key="71" x="373" y="220" width="50" height="50" fill="rgb(26.86%, 50.08%, 82.60%)"/>
+        <rect class="key  key-72" data-col="13" data-row="04" data-key="72" x="425" y="220" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+
+        <g transform="translate(103.546846, 271.000000) rotate(-25.000000) translate(-103.546846, -271.000000) translate(26.046846, 194.000000)">
+            <rect class="key  key-73" data-col="07" data-row="05" data-key="73" x="1" y="5.68434189e-14" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-74" data-col="08" data-row="05" data-key="74" x="53" y="5.68434189e-14" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-75" data-col="09" data-row="05" data-key="75" x="1" y="52" width="50" height="50" fill="rgb(25.49%, 50.98%, 84.31%)"/>
+            <rect class="key  key-78" data-col="12" data-row="05" data-key="78" x="1" y="104" width="50" height="50" fill="rgb(25.95%, 50.68%, 83.74%)"/>
+            <rect class="key  key-79" data-col="11" data-row="05" data-key="79" x="53" y="53" width="50" height="100" fill="rgb(78.27%, 16.26%, 17.99%)"/>
+            <rect class="key  key-80" data-col="10" data-row="05" data-key="80" x="105" y="53" width="50" height="100" fill="rgb(70.08%, 21.64%, 28.28%)"/>
+        </g>
+    </g>
+</svg>

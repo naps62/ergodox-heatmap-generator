@@ -1,0 +1,18 @@
+#!/bin/bash
+
+BASE_PATH=/usr/local/heatmap-generator
+INSTALL_PATH=$BASE_PATH/app
+DATA_PATH=$BASE_PATH/data
+
+rm -rf $INSTALL_PATH
+mkdir -p $INSTALL_PATH $DATA_PATH
+cp -r * $INSTALL_PATH/
+
+echo "Installing bundle"
+gem install bundler
+bundle install --gemfile=/usr/local/heatmap-generator/app/Gemfile
+
+echo "Copying systemd service"
+cp ./systemd/heatmap-logger.service /etc/systemd/system/
+
+echo "Done!"
