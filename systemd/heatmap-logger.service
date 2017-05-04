@@ -6,3 +6,6 @@ Type=forking
 ExecStart=/usr/local/heatmap-generator/app/bin/service start
 ExecStop=/usr/local/heatmap-generator/app/bin/service stop
 User=root
+
+[Install]
+WantedBy=multi-user.target
